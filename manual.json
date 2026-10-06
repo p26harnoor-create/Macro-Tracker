@@ -1,0 +1,11 @@
+{
+  "_comment": "Values that have no free live feed. Edit by hand (or ask Claude Code). Dates are when the value was last checked.",
+  "india10y": { "label": "India 10Y G-Sec", "value": 7.21, "unit": "pct", "asof": "2026-10-01", "source": "CCIL / market reports" },
+  "india1y_ois": { "label": "India 1Y OIS", "value": 6.21, "unit": "pct", "asof": "2026-10-01", "source": "market reports" },
+  "repo_rate": { "label": "RBI repo rate", "value": 5.25, "unit": "pct", "asof": "2026-08-05", "source": "RBI (Oct 7 decision pending at time of writing)" },
+  "fed_funds": { "label": "Fed funds target", "value": "3.75–4.00", "unit": "range", "asof": "2026-09-16", "source": "FOMC" },
+  "india_cpi": { "label": "India CPI (Aug)", "value": 4.82, "unit": "pct", "asof": "2026-09-12", "source": "MoSPI / PIB" },
+  "india_wpi": { "label": "India WPI (Aug)", "value": 9.92, "unit": "pct", "asof": "2026-09-15", "source": "DPIIT / PIB" },
+  "us_cpi": { "label": "US CPI (Aug)", "value": 3.4, "unit": "pct", "asof": "2026-09-11", "source": "BLS" },
+  "fx_reserves": { "label": "India FX reserves", "value": 740.8, "unit": "usd_bn", "asof": "2026-08-28", "source": "RBI WSS" }
+}

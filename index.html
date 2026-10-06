@@ -1,0 +1,72 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Macro Desk — India × US</title>
+<meta name="description" content="A desk briefing on India and US macro: live market dashboard, deep dives on inflation, rates, FX, fertilizer, flows and the causal chains that connect them.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar"><div class="inner">
+  <a class="brand" href="index.html">Macro Desk <small>India × US</small></a>
+  <nav class="nav">
+    <a href="index.html">Dashboard</a><a href="india.html">India</a><a href="us.html">United States</a><a href="linkages.html">Linkages</a><a href="watch.html">Watch</a><a href="cheatsheet.html">Cheat sheet</a>
+  </nav>
+  <button id="themeBtn" class="theme-btn" type="button">Dark</button>
+</div></header>
+
+<main class="page">
+<div class="hero">
+  <div class="kicker">Chapter 01 · Dashboard</div>
+  <h1>Macro Desk: India × United States</h1>
+  <p class="lede">A supply-shock inflation regime in India meeting a 5% US long end and a strong dollar. The dashboard below refreshes automatically; the chapters explain why each number matters.</p>
+  <p class="meta">Research as of 6–7 October 2026. RBI MPC decision due 7 Oct 10:00 IST. <span class="badge fact">Fact</span> = sourced · <span class="badge view">View</span> = interpretation · <span class="badge new">Added</span> = beyond the original chat.</p>
+</div>
+
+<section class="section">
+  <div class="dash-head"><h2>Markets</h2><span id="dashStamp" class="stamp">Loading…</span></div>
+  <div id="dashboard"><p class="meta">Loading quotes…</p></div>
+  <p id="fxEcb" class="legend"></p>
+  <p class="legend">Solid tiles update every 30 min on weekdays via a GitHub Action (Yahoo Finance, delayed). Dashed tiles are manual inputs or derived values — edit <code>data/manual.json</code> (or ask Claude Code) when they change. Colour shows direction of move, not whether it is good for India: for yields, USD/INR, oil and VIX, up is a headwind.</p>
+</section>
+
+<section class="section">
+  <h2>Five things that matter this week</h2>
+  <ol class="five">
+    <li><div><b>RBI, 7 Oct 10:00 IST</b> Consensus +25 bp to 5.50%. The stance word and the Q3/Q4 CPI path matter more than the move. <a href="india.html#in-rbi">§2.1</a></div></li>
+    <li><div><b>The US long end</b> 10Y ~5.27% after 5.36%; 30Y touched 5.69%, highest since 2002. Does it fall on weak data, or is the supply story in charge? <a href="us.html#us-treasuries">§3.2</a></div></li>
+    <li><div><b>Oil × rupee</b> Brent ~$97 after $100–107; USD/INR ~96.3. Brent × USD/INR is India's effective oil price — the single best tile above. <a href="india.html#in-oil">§2.10</a></div></li>
+    <li><div><b>FPI selling</b> ₹14,183 cr out in the first two sessions of October. Equity selling is FX selling. <a href="india.html#in-flows">§2.7</a></div></li>
+    <li><div><b>CPI 12 Oct, WPI 14 Oct</b> The CPI–WPI gap (4.82% vs 9.92%) is the inflation story. Watch core/services and whether the gap closes from above or below. <a href="india.html#in-inflation">§2.2</a></div></li>
+  </ol>
+</section>
+
+<section class="section">
+  <h2>Chapters</h2>
+  <div class="chapters">
+    <a class="chapter" href="india.html"><span class="n">02</span><h3>India</h3><p>RBI · inflation · fertilizer &amp; NIPU · USD/INR · FCNR(B) · bonds · flows · capex · trade deal · oil</p></a>
+    <a class="chapter" href="us.html"><span class="n">03</span><h3>United States</h3><p>Fed under Warsh · the long end &amp; term premium · fiscal · inflation · labour · dollar · equities · gold</p></a>
+    <a class="chapter" href="linkages.html"><span class="n">04</span><h3>Linkages</h3><p>The master chain · six core chains · feedback loops · cyclical vs structural · bull/bear/trigger · trade framings</p></a>
+    <a class="chapter" href="watch.html"><span class="n">05</span><h3>Watch</h3><p>Calendar · five-minute morning checklist · thresholds · inflation dashboard · source hierarchy</p></a>
+    <a class="chapter" href="cheatsheet.html"><span class="n">06</span><h3>Cheat sheet</h3><p>30-second answers · key numbers · questions to expect · glossary</p></a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>How to read this site</h2>
+  <ul class="tight">
+    <li>Every topic opens on a <b>Summary</b>; switch to <b>Deep dive</b>, <b>Mechanism</b> or <b>Watch</b> with the tabs, or hit <b>Expand all</b> in the sidebar to read straight through.</li>
+    <li>Links carry the tab: <code>india.html#in-inflation/mech</code> opens the inflation mechanism directly.</li>
+    <li><span class="badge fact">Fact</span> statements are sourced at the bottom of each section. <span class="badge view">View</span> statements are interpretation (ChatGPT's deep dive or mine) and should be argued with, not quoted.</li>
+    <li>To update: edit the HTML section, bump the dates in the hero, and adjust <code>data/manual.json</code>. The README has a Claude Code prompt for this.</li>
+  </ul>
+</section>
+</main>
+<footer>Macro Desk · India × US. Built from a research conversation (6 Oct 2026) plus current reporting. Market data is delayed and indicative. Not investment advice.</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
+
+</body></html>
