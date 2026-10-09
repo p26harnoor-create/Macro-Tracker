@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-06T18:00:00+00:00",
-  "source": "SEED values from research notes (6 Oct 2026). Replaced automatically once the GitHub Action runs.",
+  "updated_utc": "2026-10-08T16:00:00+00:00",
+  "source": "SEED values from research notes (8 Oct 2026). Replaced automatically once the GitHub Action runs.",
   "failures": [],
   "quotes": [
     {
@@ -8,11 +8,11 @@
       "label": "Nifty 50",
       "group": "india_eq",
       "unit": "idx",
-      "last": null,
-      "prev": null,
+      "last": 22231,
+      "prev": 22231,
       "chg": 0,
       "chg_pct": 0,
-      "asof": "2026-10-06T00:00:00+00:00",
+      "asof": "2026-10-08T00:00:00+00:00",
       "stale": true,
       "seed": true
     },
@@ -21,11 +21,11 @@
       "label": "Sensex",
       "group": "india_eq",
       "unit": "idx",
-      "last": null,
-      "prev": null,
+      "last": 71593,
+      "prev": 71593,
       "chg": 0,
       "chg_pct": 0,
-      "asof": "2026-10-06T00:00:00+00:00",
+      "asof": "2026-10-08T00:00:00+00:00",
       "stale": true,
       "seed": true
     },
@@ -177,11 +177,11 @@
       "label": "US 10Y",
       "group": "us_rates",
       "unit": "pct",
-      "last": 5.27,
-      "prev": 5.27,
+      "last": 5.35,
+      "prev": 5.35,
       "chg": 0,
       "chg_pct": 0,
-      "asof": "2026-10-06T00:00:00+00:00",
+      "asof": "2026-10-08T00:00:00+00:00",
       "stale": true,
       "seed": true
     },
@@ -203,11 +203,11 @@
       "label": "USD/INR",
       "group": "fx",
       "unit": "fx",
-      "last": 96.35,
-      "prev": 96.35,
+      "last": 97.13,
+      "prev": 97.13,
       "chg": 0,
       "chg_pct": 0,
-      "asof": "2026-10-06T00:00:00+00:00",
+      "asof": "2026-10-08T00:00:00+00:00",
       "stale": true,
       "seed": true
     },
@@ -268,11 +268,11 @@
       "label": "Brent",
       "group": "cmdty",
       "unit": "usd",
-      "last": 97.0,
-      "prev": 97.0,
+      "last": 105.3,
+      "prev": 105.3,
       "chg": 0,
       "chg_pct": 0,
-      "asof": "2026-10-06T00:00:00+00:00",
+      "asof": "2026-10-08T00:00:00+00:00",
       "stale": true,
       "seed": true
     },
@@ -281,11 +281,11 @@
       "label": "WTI",
       "group": "cmdty",
       "unit": "usd",
-      "last": null,
-      "prev": null,
+      "last": 92.73,
+      "prev": 92.73,
       "chg": 0,
       "chg_pct": 0,
-      "asof": "2026-10-06T00:00:00+00:00",
+      "asof": "2026-10-08T00:00:00+00:00",
       "stale": true,
       "seed": true
     },
@@ -307,11 +307,11 @@
       "label": "Gold",
       "group": "cmdty",
       "unit": "usd",
-      "last": null,
-      "prev": null,
+      "last": 4120,
+      "prev": 4120,
       "chg": 0,
       "chg_pct": 0,
-      "asof": "2026-10-06T00:00:00+00:00",
+      "asof": "2026-10-08T00:00:00+00:00",
       "stale": true,
       "seed": true
     },
@@ -374,7 +374,7 @@
       "label": "India\u2013US 10Y spread",
       "group": "derived",
       "unit": "bps",
-      "last": 194,
+      "last": 192,
       "note": "India 10Y is a manual input"
     },
     {
@@ -382,7 +382,7 @@
       "label": "Brent in \u20b9/bbl",
       "group": "derived",
       "unit": "inr",
-      "last": 9346,
+      "last": 10228,
       "note": "Brent \u00d7 USD/INR \u2014 India's effective oil price"
     }
   ],
@@ -390,10 +390,10 @@
     "_comment": "Values that have no free live feed. Edit by hand (or ask Claude Code). Dates are when the value was last checked.",
     "india10y": {
       "label": "India 10Y G-Sec",
-      "value": 7.21,
+      "value": 7.27,
       "unit": "pct",
-      "asof": "2026-10-01",
-      "source": "CCIL / market reports"
+      "asof": "2026-10-07",
+      "source": "market reports (post-MPC)"
     },
     "india1y_ois": {
       "label": "India 1Y OIS",
@@ -404,10 +404,10 @@
     },
     "repo_rate": {
       "label": "RBI repo rate",
-      "value": 5.25,
+      "value": 5.5,
       "unit": "pct",
-      "asof": "2026-08-05",
-      "source": "RBI (Oct 7 decision pending at time of writing)"
+      "asof": "2026-10-07",
+      "source": "RBI MPC, calibrated tightening"
     },
     "fed_funds": {
       "label": "Fed funds target",
@@ -443,6 +443,20 @@
       "unit": "usd_bn",
       "asof": "2026-08-28",
       "source": "RBI WSS"
+    },
+    "rbi_fy27_cpi": {
+      "label": "RBI FY27 CPI forecast",
+      "value": 5.2,
+      "unit": "pct",
+      "asof": "2026-10-07",
+      "source": "RBI MPC (Q3 6.0%)"
+    },
+    "rbi_fy27_gdp": {
+      "label": "RBI FY27 GDP forecast",
+      "value": 7.1,
+      "unit": "pct",
+      "asof": "2026-10-07",
+      "source": "RBI MPC"
     }
   }
 }
