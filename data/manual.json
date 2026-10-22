@@ -2,17 +2,17 @@
   "_comment": "Values that have no free live feed. Edit by hand (or ask Claude Code). Dates are when the value was last checked.",
   "india10y": {
     "label": "India 10Y G-Sec",
-    "value": 7.27,
+    "value": 7.46,
     "unit": "pct",
-    "asof": "2026-10-07",
-    "source": "market reports (post-MPC)"
+    "asof": "2026-10-22",
+    "source": "market reports \u2014 3-yr high"
   },
   "india1y_ois": {
     "label": "India 1Y OIS",
-    "value": 6.21,
+    "value": 6.3,
     "unit": "pct",
-    "asof": "2026-10-01",
-    "source": "market reports"
+    "asof": "2026-10-22",
+    "source": "desk estimate \u2014 UNVERIFIED"
   },
   "repo_rate": {
     "label": "RBI repo rate",
@@ -29,32 +29,32 @@
     "source": "FOMC"
   },
   "india_cpi": {
-    "label": "India CPI (Aug)",
-    "value": 4.82,
+    "label": "India CPI (Sept)",
+    "value": 5.54,
     "unit": "pct",
-    "asof": "2026-09-12",
+    "asof": "2026-10-12",
     "source": "MoSPI / PIB"
   },
   "india_wpi": {
-    "label": "India WPI (Aug)",
-    "value": 9.92,
+    "label": "India WPI (Sept)",
+    "value": 11.39,
     "unit": "pct",
-    "asof": "2026-09-15",
+    "asof": "2026-10-14",
     "source": "DPIIT / PIB"
   },
   "us_cpi": {
-    "label": "US CPI (Aug)",
-    "value": 3.4,
+    "label": "US CPI (Sept)",
+    "value": 3.7,
     "unit": "pct",
-    "asof": "2026-09-11",
+    "asof": "2026-10-14",
     "source": "BLS"
   },
   "fx_reserves": {
     "label": "India FX reserves",
-    "value": 740.8,
+    "value": 726.0,
     "unit": "usd_bn",
-    "asof": "2026-08-28",
-    "source": "RBI WSS"
+    "asof": "2026-10-09",
+    "source": "RBI WSS (peak ~$786bn, 4 Sep)"
   },
   "rbi_fy27_cpi": {
     "label": "RBI FY27 CPI forecast",
